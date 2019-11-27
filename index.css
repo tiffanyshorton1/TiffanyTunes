@@ -8,3 +8,9 @@ img.signalBars {
     left: 0px;
     width: 100px;
 }
+#charging {
+    position: fixed;
+    top: 10px;
+    right: 0ox;
+    width: 100px;
+}
