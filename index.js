@@ -3,9 +3,8 @@ function checkTime(i) {
       i = "0" + i;
     }
     return i;
-  }
-  
-  function startTime() {
+}
+function startTime() {
     var today = new Date();
     var h = today.getHours();
     var m = today.getMinutes();
@@ -14,8 +13,5 @@ function checkTime(i) {
     m = checkTime(m);
     s = checkTime(s);
     document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
-    t = setTimeout(function() {
-      startTime()
-    }, 500);
-  }
+}
   startTime();
