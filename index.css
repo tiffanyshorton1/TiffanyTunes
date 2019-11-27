@@ -9,8 +9,6 @@ img.signalBars {
     width: 100px;
 }
 #charging {
-    position: fixed;
+    align: right;
     top: 10px;
-    right: 0px;
-    width: 100px;
 }
