@@ -29,6 +29,11 @@ function chargebattery() {
     setTimeout(function () {
       a.innerHTML = "&#xf240;";
     }, 4000);
+
+    position: fixed;
+    top: 10px;
+    right: 0ox;
+    width: 100px;
   }
   chargebattery();
   setInterval(chargebattery, 5000);
