@@ -12,9 +12,7 @@ body {
     background-color: limegreen;
 }
 
-#time {
-    margin: center;
-}
 #charging {
     float: right;
+    top: 0;
 }
