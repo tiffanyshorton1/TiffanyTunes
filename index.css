@@ -12,6 +12,11 @@ body {
     background-color: limegreen;
 }
 #time {
+    text-align:center;
+    width: 100%;
     position: relative;
     left: 200px;
+}
+#charging {
+    margin-right: 0;
 }
