@@ -34,6 +34,11 @@
     font-size: 300%;
 }
 
-#libOpt {
+#libOpt li {
     list-style-type: none;
+    margin: 1em 0;
+    font-size: 125%;
+}
+#recents {
+    font-size: 180%;
 }
