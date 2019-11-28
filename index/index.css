@@ -11,10 +11,7 @@ body {
     height:40px;
     background-color: limegreen;
 }
-#mainMenu img {
-    height: 50px;
-    width: 30px;
-}
+
 #time {
     margin: center;
 }
