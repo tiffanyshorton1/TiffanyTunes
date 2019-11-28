@@ -1,9 +1,17 @@
+html {
+    background-color: blueviolet;
+}
+body {
+    background-color: lightpink;
+    position: relative;
+    top: 50px;
+}
 #mainMenu {
     width: 100px;
     height:40px;
 }
 #mainMenu img {
-    position: relative;
+    position: fixed;
     top: 30px;
     left: 50px;
 }
