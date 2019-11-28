@@ -3,12 +3,12 @@
     height:40px;
 }
 #mainMenu img {
-    position: fixed;
-    top: 0px;
-    left: 0px;
+    position: relative;
+    top: 30px;
+    left: 50px;
 }
 .fa {
-    position: absolute;
-    top: 0px;
+    position: relative;
+    top: 30px;
     right: 50px;
 }
