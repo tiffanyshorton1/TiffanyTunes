@@ -9,11 +9,7 @@ body {
 #mainMenu {
     width: 100px;
     height:40px;
-}
-#mainMenu img {
-    position: fixed;
-    top: 30px;
-    left: 50px;
+    background-color: limegreen;
 }
 #charging {
     align: center;
