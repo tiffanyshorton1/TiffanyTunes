@@ -42,3 +42,11 @@
 #recents {
     font-size: 180%;
 }
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: #f01431;
+    text-decoration: none;
+}
