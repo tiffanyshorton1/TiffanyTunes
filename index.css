@@ -50,3 +50,6 @@ a:hover {
     color: #f01431;
     text-decoration: none;
 }
+div.typewrite a:link a:visited a:hover {
+    color: black;
+}
