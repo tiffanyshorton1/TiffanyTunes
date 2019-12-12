@@ -15,12 +15,17 @@
     display: inline;
     position: relative;
     top:7;
+    margin: 5px;
+}
+#mainMenu .wifi {
+    height: 45%;
+    width: 1.5%;
 }
 #time {
     display: inline;
     position: relative;
     top:10;
-    left: 40%;
+    left: 35%;
     
 }
 #charging {
@@ -60,4 +65,28 @@ a:hover {
 }
 .albumTitle {
     font-size: 20px;
+    font-weight: bold;
+}
+
+#contactmeAlbum img {
+    height: 230px;
+    width: 230px;
+    margin: 10px;
+    position: relative;
+    top: -316px;
+    left: 300px;
+}
+#contactmeAlbum p {
+    line-height: 0.3;
+    position: relative;
+    left: 310px;
+    top: -327px;
+}
+#workAlbum img {
+    height: 230px;
+    width: 230px;
+    margin: 10px;
+    position: relative;
+    top: -350px;
+    right: 300px;
 }
