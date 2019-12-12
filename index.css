@@ -63,6 +63,10 @@ a:hover {
     left: 12px;
     top: -13px;
 }
+#aboutmeAlbum:hover img{
+    background-color: cornsilk;
+    opacity: 0.5;
+}
 .albumTitle {
     font-size: 20px;
     font-weight: bold;
@@ -76,6 +80,10 @@ a:hover {
     top: -316px;
     left: 300px;
 }
+#contactmeAlbum:hover img{
+    background-color: cornsilk;
+    opacity: 0.5;
+}
 #contactmeAlbum p {
     line-height: 0.3;
     position: relative;
@@ -85,8 +93,19 @@ a:hover {
 #workAlbum img {
     height: 230px;
     width: 230px;
-    margin: 10px;
     position: relative;
-    top: -350px;
-    right: 300px;
+    top: -632px;
+    left: 595px;
+    margin: 10px;
+}
+#workAlbum p {
+    line-height: 0.3;
+    position: relative;
+    left: 610px;
+    top: -640px;
+}
+
+#workAlbum:hover img{
+    background-color: cornsilk;
+    opacity: 0.5;
 }
