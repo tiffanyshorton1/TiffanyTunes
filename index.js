@@ -89,3 +89,14 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+var i = 0;
+var txt = 'Greetings! My name is Tiffany Horton. I am a junior computer science major attending THEE Benedict College in Columbia, SC. I love coding but I also love music. I created this website to showcase my passions for both.'; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("intro").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
